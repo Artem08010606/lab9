@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* FULLSCREEN HEADER */
+.hero {
+    height: 100vh;
+    background: url("https://tkgrant.kz/upload/iblock/506/v7bffnopuzp9qqc2c206obsgx8rk2tj9.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 20px;
+}
+
+/* Контент */
+main {
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Карточки */
+.camera-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.camera-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.camera-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.camera-card:hover {
+    transform: scale(1.05);
+    background: #ffcc00;
+}
+
+/* Описание */
+#description {
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Услуги */
+.services {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.services-text {
+    width: 60%;
+}
+
+.services-image {
+    width: 40%;
+}
+
+.services-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff; 
+    text-align: center; 
+    padding: 20px 0; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    border-top: 2px solid #444; 
+}
+
+.footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#descCam, #descRec, #descSwitch {
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.more-info {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 18px;
+}
+
+.more-info a {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.more-info a:hover {
+    text-decoration: underline;
+}
